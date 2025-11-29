@@ -1,0 +1,119 @@
+/* Container Styling */
+.products-container {
+  padding: 20px;
+  max-width: 1100px;
+  margin: auto;
+}
+
+/* Headings */
+h2 {
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  color: #333;
+}
+
+/* Table Styling */
+.products-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.products-table th {
+  background: #004aad;
+  color: white;
+  text-align: left;
+  padding: 12px;
+  font-size: 1rem;
+}
+
+.products-table td {
+  padding: 12px;
+  font-size: 0.95rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.products-table tr:hover {
+  background: #f7f7f7;
+}
+
+/* Image */
+.products-table img {
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+/* Buttons */
+button {
+  padding: 7px 14px;
+  background: #004aad;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:nth-child(2) {
+  background: #d9534f;
+}
+
+/* Editable Input Fields */
+.products-table input {
+  padding: 6px 8px;
+  width: 100%;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+/* ========== RESPONSIVE DESIGN ========== */
+
+/* Mobile Table → Converted to Stacked Cards */
+@media (max-width: 768px) {
+  .products-table,
+  .products-table thead,
+  .products-table tbody,
+  .products-table th,
+  .products-table td,
+  .products-table tr {
+    display: block;
+    width: 100%;
+  }
+
+  .products-table tr {
+    margin-bottom: 15px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 1px 6px rgba(0, 0, 0, 0.1);
+  }
+
+  .products-table td {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 5px;
+    border-bottom: none;
+  }
+
+  .products-table td img {
+    width: 70px;
+    height: 70px;
+  }
+
+  .products-table td:before {
+    content: attr(data-label);
+    font-weight: bold;
+    color: #333;
+  }
+
+  .products-table th {
+    display: none;
+  }
+}
