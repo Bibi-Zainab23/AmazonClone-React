@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +69,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+=======
+# AmazonClone-React
+Amazon Clone built using REACT. A responsive e-commerce UI that recreates Amazon’s homepage with product sections, banners, navigation bar, and interactive elements. Designed for practicing frontend layout, styling, and basic DOM interactions.
+>>>>>>> 0533bd16ca0000f654014edd3690e373ee0b8927
